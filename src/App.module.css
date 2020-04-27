@@ -1,0 +1,17 @@
+body {
+    font-family: Arial;
+    text-align: center;
+  }
+  
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column
+}
+@media(max-width:720px){
+  .image{
+    width: 80%
+  }
+}
