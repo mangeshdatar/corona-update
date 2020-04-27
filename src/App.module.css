@@ -2,7 +2,7 @@ body {
     font-family: Arial;
     text-align: center;
   }
-  
+
 
 .container{
     display: flex;
@@ -10,8 +10,24 @@ body {
     justify-content: center;
     flex-direction: column
 }
-@media(max-width:720px){
+.footer{
+  text-align: center;
+    padding: 1rem;
+    background: #0c0d0d;
+    height: 60px;
+    width: 100%;
+    text-decoration: none !important;
+    color: aliceblue !important;
+}
+a{
+  text-decoration: none !important;
+  color: aliceblue !important;
+}
+@media(max-width:520px){
   .image{
     width: 80%
+  }
+  .footer{
+    display: grid;
   }
 }

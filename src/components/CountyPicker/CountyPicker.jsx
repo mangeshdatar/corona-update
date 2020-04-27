@@ -11,7 +11,6 @@ class CountyPicker extends React.Component {
         this.setState({
             countries : getCountry
         })
-        console.log(this.state.countries)
     }
     render() {
        

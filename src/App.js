@@ -30,7 +30,10 @@ class App extends React.Component {
                 <Card data={data} />
                 <CountryPicker  handleCountrySelect={this.handleCountrySelect} />
                 <Chart data={data} country={country} />
-            </div>
+                <div className={styles.footer}>
+                <h2>Developed By : <a href="https://mangeshdatar.netlify.app/index.html"> Mangesh Datar </a> </h2>
+                </div>
+                </div>
         )
     }
 }
