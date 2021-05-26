@@ -8,7 +8,7 @@
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "axios": "^0.19.2",
-    "browserslist": "4.6.2",
+    "browserslist": "4.16.5",
     "chart.js": "^2.9.3",
     "classnames": "^2.2.6",
     "react": "^16.13.1",
@@ -18,7 +18,7 @@
     "react-scripts": "3.4.1"
   },
   "resolutions": {
-    "browserslist": "4.6.2",
+    "browserslist": "4.16.5",
     "caniuse-lite": "1.0.30000974"
   },
   "scripts": {
